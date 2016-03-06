@@ -24,3 +24,5 @@
         <mui:Link DisplayName="help" Source="https://github.com/firstfloorsoftware/mui" />
     </mui:ModernWindow.TitleLinks>
 </mui:ModernWindow>
+    
+    <!--master test-->
