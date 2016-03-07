@@ -9,7 +9,10 @@
     <mui:ModernWindow.MenuLinkGroups>
         <mui:LinkGroup DisplayName="YStory Office Soloution">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="home" Source="/Pages/Home.xaml" />
+                <mui:Link DisplayName="Home" Source="/Pages/Home.xaml" />
+                <mui:Link DisplayName="Input" Source="/Pages/Input.xaml" />
+                <mui:Link DisplayName="Output" Source="/Pages/Output.xaml" />
+
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="settings" GroupKey="settings">

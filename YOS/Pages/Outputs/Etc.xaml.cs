@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace YOS.Pages
+namespace YOS.Pages.Outputs
 {
 	/// <summary>
-	/// Interaction logic for Home.xaml
+	/// Interaction logic for About.xaml
 	/// </summary>
-	public partial class Output : UserControl
+	public partial class Etc : UserControl
 	{
-		public Output()
+		public Etc()
 		{
 			InitializeComponent();
 		}
