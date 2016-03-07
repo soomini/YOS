@@ -13,18 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace YOS.Pages
+namespace YOS.Pages.Outputs
 {
 	/// <summary>
-	/// Interaction logic for Home.xaml
+	/// Interaction logic for About.xaml
 	/// </summary>
-	public partial class Home : UserControl
+	public partial class Etc : UserControl
 	{
-		public Home()
+		public Etc()
 		{
 			InitializeComponent();
 		}
-
-
 	}
 }
