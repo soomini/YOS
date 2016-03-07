@@ -18,7 +18,7 @@
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
     </mui:ModernWindow.MenuLinkGroups>
-   
+    
     <mui:ModernWindow.TitleLinks>
         <mui:Link DisplayName="settings" Source="/Pages/SettingsPage.xaml" />
         <mui:Link DisplayName="help" Source="https://github.com/firstfloorsoftware/mui" />
@@ -26,3 +26,4 @@
 </mui:ModernWindow>
 <!--test-->
     <!--test222222-->
+    <!--for request test 0307-->
