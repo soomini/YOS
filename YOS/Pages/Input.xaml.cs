@@ -18,13 +18,11 @@ namespace YOS.Pages
 	/// <summary>
 	/// Interaction logic for Home.xaml
 	/// </summary>
-	public partial class Home : UserControl
+	public partial class Input : UserControl
 	{
-		public Home()
+		public Input()
 		{
 			InitializeComponent();
 		}
-
-
 	}
 }
