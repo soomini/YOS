@@ -35,6 +35,7 @@
       <HintPath>..\packages\ModernUI.WPF.1.0.8\lib\net45\FirstFloor.ModernUI.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -82,6 +83,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Pages\Outputs\DataControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Outputs\Etc.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -105,6 +110,9 @@
     </Compile>
     <Compile Include="Pages\Inputs\Etc.xaml.cs">
       <DependentUpon>Etc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Outputs\DataControl.xaml.cs">
+      <DependentUpon>DataControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Outputs\Etc.xaml.cs">
       <DependentUpon>Etc.xaml</DependentUpon>

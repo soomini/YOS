@@ -21,7 +21,7 @@ namespace YOS
 	/// </summary>
 	public partial class MainWindow : ModernWindow
 	{
-		public MainWindow()
+        public MainWindow()
 		{
 			InitializeComponent();
 		}
