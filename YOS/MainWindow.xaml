@@ -24,14 +24,4 @@
         <mui:Link DisplayName="help" Source="https://github.com/firstfloorsoftware/mui" />
     </mui:ModernWindow.TitleLinks>
 </mui:ModernWindow>
-<!--수이-->
-<!--수이 리퀘스트 테스트-->
-
-    <!--성혜-->
-    <!--리퀘스트 test-->
-
-    <!--순환-->
-    <!--순환 브랜치 테스트-->
-<!--수민-->
-    
- <!--리쿠ㅔ스트-->
+<!--모든 테스트 초기화-->
