@@ -18,9 +18,9 @@ namespace YOS.Pages
 	/// <summary>
 	/// Interaction logic for Home.xaml
 	/// </summary>
-	public partial class Output : UserControl
+	public partial class Input : UserControl
 	{
-		public Output()
+		public Input()
 		{
 			InitializeComponent();
 		}
