@@ -24,5 +24,7 @@ namespace YOS.Pages
 		{
 			InitializeComponent();
 		}
+
+
 	}
 }
