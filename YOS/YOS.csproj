@@ -38,6 +38,8 @@
     <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -83,10 +85,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Pages\Outputs\DataControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Pages\Outputs\Etc.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -110,9 +108,6 @@
     </Compile>
     <Compile Include="Pages\Inputs\Etc.xaml.cs">
       <DependentUpon>Etc.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Outputs\DataControl.xaml.cs">
-      <DependentUpon>DataControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Outputs\Etc.xaml.cs">
       <DependentUpon>Etc.xaml</DependentUpon>
